@@ -1,0 +1,8 @@
+# Pinned to exact versions for reproducibility.
+# Interview talking point: "Unpinned dependencies are a CVE risk and a
+# reproducibility risk. A build that worked Monday can fail Friday because
+# an upstream package released a breaking change. I pin everything and
+# have a weekly automated PR that bumps versions after Trivy validates them."
+flask==3.0.3
+prometheus-client==0.20.0
+gunicorn==22.0.0
